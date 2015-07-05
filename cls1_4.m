@@ -1,0 +1,10 @@
+x=0.25:0.25:4.75;
+	figure;
+	plot(x);
+	hold on;
+    z = power(x,2);
+	y=power(2.71,z);
+	plot(y);
+	xlabel('x--->');
+	ylabel('y=e^(x^2)--->');
+	title('Plot the x and y function over 0<x<5');
